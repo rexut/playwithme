@@ -47,3 +47,93 @@ Using a placeholder image service, for example:
 [d42]: https://placehold.it/42/C3C3C3/000000?text=+
 [d74]: https://placehold.it/74/C3C3C3/000000?text=+
 ```
+
+## Unicode numeric character
+
+In case this may be helpful for someone who just needs to show colors
+rather than output, as a hackish workaround (and FYI), since Github
+supports Unicode numeric character references (and HTML entities),
+you could try colored Unicode symbols, though it depends on the font
+rendering them in color (as it happens to be appearing for me on
+Windows 10 and Mac 10.12.5, at least, though on the Mac at least,
+the up/down-pointing small red triangles don't show in red):
+
+| Unicode character | Markdown code (HTML entities) | result as HTML entities | result als raw file character |
+| ----------------: | :---------------------------: | :---------------------: | :---------------------------: |
+| BLACK QUESTION MARK ORNAMENT |         `&#x2753;` | &#x2753;                | ❓ |
+| HEAVY EXCLAMATION MARK SYMBOL |        `&#x2757;` | &#x2757;                | ❗ |
+| CROSS MARK |                           `&#x274C;` | &#x274C;                | ❌ |
+| HEAVY LARGE CIRCLE |                   `&#x2B55;` | &#x2B55;                | ⭕ |
+| RED APPLE |                           `&#x1F34E;` | &#x1F34E;               | 🍎 |
+| GREEN APPLE |                         `&#x1F34F;` | &#x1F34F;               | 🍏 |
+| BLUE HEART |                          `&#x1F499;` | &#x1F499;               | 💙 |
+| GREEN HEART |                         `&#x1F49A;` | &#x1F49A;               | 💚 |
+| YELLOW HEART |                        `&#x1F49B;` | &#x1F49B;               | 💛 |
+| PURPLE HEART |                        `&#x1F49C;` | &#x1F49C;               | 💜 |
+| GREEN BOOK |                          `&#x1F4D7;` | &#x1F4D7;               | 📗 |
+| BLUE BOOK |                           `&#x1F4D8;` | &#x1F4D8;               | 📘 |
+| ORANGE BOOK |                         `&#x1F4D9;` | &#x1F4D9;               | 📙 |
+| LARGE RED CIRCLE |                    `&#x1F534;` | &#x1F534;               | 🔴 |
+| LARGE BLUE CIRCLE |                   `&#x1F535;` | &#x1F535;               | 🔵 |
+| LARGE ORANGE DIAMOND |                `&#x1F536;` | &#x1F536;               | 🔶 |
+| LARGE BLUE DIAMOND |                  `&#x1F537;` | &#x1F537;               | 🔷 |
+| SMALL ORANGE DIAMOND |                `&#x1F538;` | &#x1F538;               | 🔸 |
+| SMALL BLUE DIAMOND |                  `&#x1F539;` | &#x1F539;               | 🔹 |
+| UP-POINTING RED TRIANGLE |            `&#x1F53A;` | &#x1F53A;               | 🔺 |
+| DOWN-POINTING RED TRIANGLE |          `&#x1F53B;` | &#x1F53B;               | 🔻 |
+| UP-POINTING SMALL RED TRIANGLE |      `&#x1F53C;` | &#x1F53C;               | 🔼 |
+| DOWN-POINTING SMALL RED TRIANGLE |    `&#x1F53D;` | &#x1F53D;               | 🔽 |
+
+**list of Unicode numeric character:**
+
+| Markdown code (HTML entities) | Unicode reference table                 |
+| ----------------------------: | :-------------------------------------- |
+| `&#x2190;`-`&#x21FF;`   | [Arrows][arrows] |
+| `&#x2300;`-`&#x23FF;`   | [Miscellaneous Technical][miscellaneous_technical] |
+| `&#x2600;`-`&#x26FF;`   | [Miscellaneous Symbols][miscellaneous_symbols] |
+| `&#x2700;`-`&#x27BF;`   | [Dingbats][dingbats] |
+| `&#x27F0;`-`&#x27FF;`   | [Supplemental Arrows-A][supplemental_arrows_a] |
+| `&#x2900;`-`&#x297F;`   | [Supplemental Arrows-B][supplemental_arrows_b] |
+| `&#x2B00;`-`&#x2BFF;`   | [Miscellaneous Symbols and Arrows][miscellaneous_symbols_and_arrows] |
+| `&#x1F100;`-`&#x1F1FF;` | [Enclosed Alphanumeric Supplement][enclosed_alphanumeric_supplement] |
+| `&#x1F300;`-`&#x1F5FF;` | [Miscellaneous Symbols and Pictographs][miscellaneous_symbols_and_pictographs] |
+| `&#x1F600;`-`&#x1F64F;` | [Emoticons][emoticons] |
+| `&#x1F680;`-`&#x1F6FF;` | [Transport and Map Symbols][transport_and_map_symbols] |
+| `&#x1F900;`-`&#x1F9FF;` | [Supplemental Symbols and Pictographs][supplemental_symbols_and_pictographs] |
+
+[arrows]:
+  https://www.fileformat.info/info/unicode/block/arrows/utf8test.htm
+  "UTF-8 Browser Test for Unicode Block 'Arrows'"
+[miscellaneous_technical]:
+  https://www.fileformat.info/info/unicode/block/miscellaneous_technical/utf8test.htm
+  "UTF-8 Browser Test for Unicode Block 'Miscellaneous Technical'"
+[miscellaneous_symbols]:
+  https://www.fileformat.info/info/unicode/block/miscellaneous_symbols/utf8test.htm
+  "UTF-8 Browser Test for Unicode Block 'Miscellaneous Symbols'"
+[dingbats]:
+  https://www.fileformat.info/info/unicode/block/dingbats/utf8test.htm
+  "UTF-8 Browser Test for Unicode Block 'Dingbats'"
+[supplemental_arrows_a]:
+  https://www.fileformat.info/info/unicode/block/supplemental_arrows_a/utf8test.htm
+  "UTF-8 Browser Test for Unicode Block 'Supplemental Arrows-A'"
+[supplemental_arrows_b]:
+  https://www.fileformat.info/info/unicode/block/supplemental_arrows_b/utf8test.htm
+  "UTF-8 Browser Test for Unicode Block 'Supplemental Arrows-B'"
+[miscellaneous_symbols_and_arrows]:
+  https://www.fileformat.info/info/unicode/block/miscellaneous_symbols_and_arrows/utf8test.htm
+  "UTF-8 Browser Test for Unicode Block 'Miscellaneous Symbols and Arrows'"
+[enclosed_alphanumeric_supplement]:
+  https://www.fileformat.info/info/unicode/block/enclosed_alphanumeric_supplement/utf8test.htm
+  "UTF-8 Browser Test for Unicode Block 'Enclosed Alphanumeric Supplement'"
+[miscellaneous_symbols_and_pictographs]:
+  https://www.fileformat.info/info/unicode/block/miscellaneous_symbols_and_pictographs/utf8test.htm
+  "UTF-8 Browser Test for Unicode Block 'Miscellaneous Symbols and Pictographs'"
+[emoticons]:
+  https://www.fileformat.info/info/unicode/block/emoticons/utf8test.htm
+  "UTF-8 Browser Test for Unicode Block 'Emoticons'"
+[transport_and_map_symbols]:
+  https://www.fileformat.info/info/unicode/block/transport_and_map_symbols/utf8test.htm
+  "UTF-8 Browser Test for Unicode Block 'Transport and Map Symbols'"
+[supplemental_symbols_and_pictographs]:
+  https://www.fileformat.info/info/unicode/block/supplemental_symbols_and_pictographs/utf8test.htm
+  "UTF-8 Browser Test for Unicode Block 'Supplemental Symbols and Pictographs'"
