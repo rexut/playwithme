@@ -2,6 +2,52 @@
 
 It's playtime.
 
+## Scaled image service
+
+Using a scaled image service, for example:
+
+- ![gh15] https://upload.wikimedia.org/wikipedia/commons/2/29/GitHub_logo_2013.svg
+- ![oi15] https://de.wikipedia.org/wiki/Datei:Octicons-mark-github.svg
+- ![oc15] https://commons.wikimedia.org/wiki/File:Octocat_GitHub_Mascot.svg
+
+[gh15]: https://demo.cloudimg.io/height/15/n/https://upload.wikimedia.org/wikipedia/commons/2/29/GitHub_logo_2013.svg
+[oi15]: https://demo.cloudimg.io/width/15/n/https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg
+[oc15]: https://demo.cloudimg.io/width/15/n/https://upload.wikimedia.org/wikipedia/commons/f/f6/Octocat_GitHub_Mascot.svg
+
+| ![oi12] | ![oi14] | ![oi18] | ![oi26] | ![oi42] | ![oi74] |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| *12px*  | *14px*  | *18px*  | *26px*  | *42px*  | *74px*  |
+
+[oi12]: https://demo.cloudimg.io/width/12/n/https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg
+[oi14]: https://demo.cloudimg.io/width/14/n/https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg
+[oi18]: https://demo.cloudimg.io/width/18/n/https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg
+[oi26]: https://demo.cloudimg.io/width/26/n/https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg
+[oi42]: https://demo.cloudimg.io/width/42/n/https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg
+[oi74]: https://demo.cloudimg.io/width/74/n/https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg
+
+### Markdown code
+
+```markdown
+- ![gh15] https://upload.wikimedia.org/wikipedia/commons/2/29/GitHub_logo_2013.svg
+- ![oi15] https://de.wikipedia.org/wiki/Datei:Octicons-mark-github.svg
+- ![oc15] https://commons.wikimedia.org/wiki/File:Octocat_GitHub_Mascot.svg
+
+[gh15]: https://demo.cloudimg.io/height/15/n/https://upload.wikimedia.org/wikipedia/commons/2/29/GitHub_logo_2013.svg
+[oi15]: https://demo.cloudimg.io/width/15/n/https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg
+[oc15]: https://demo.cloudimg.io/width/15/n/https://upload.wikimedia.org/wikipedia/commons/f/f6/Octocat_GitHub_Mascot.svg
+
+| ![oi12] | ![oi14] | ![oi18] | ![oi26] | ![oi42] | ![oi74] |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| *12px*  | *14px*  | *18px*  | *26px*  | *42px*  | *74px*  |
+
+[oi12]: https://demo.cloudimg.io/width/12/n/https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg
+[oi14]: https://demo.cloudimg.io/width/14/n/https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg
+[oi18]: https://demo.cloudimg.io/width/18/n/https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg
+[oi26]: https://demo.cloudimg.io/width/26/n/https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg
+[oi42]: https://demo.cloudimg.io/width/42/n/https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg
+[oi74]: https://demo.cloudimg.io/width/74/n/https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg
+```
+
 ## Placeholder image service
 
 Using a placeholder image service, for example:
