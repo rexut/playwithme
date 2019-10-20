@@ -1,6 +1,31 @@
+<script>
+  var newStyle = document.createElement("link");
+  newStyle.rel = "stylesheet";
+  newStyle.href = "README.css";
+  document.getElementsByTagName("head")[0].appendChild(newStyle);
+</script>
+
+<!-- document.head.appendChild( 'README.css' ); -->
+<!--
+Workaround of the "Disallowed Raw HTML (extension)" in GFM, see:
+https://github.github.com/gfm/#disallowed-raw-html-extension-
+<img src="https://github.githubassets.com/pinned-octocat.svg" onload="window.alert('This is me signing in...');" />
+-->
+
+<!-- <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/GitHub_logo_2013.svg" onload="document.head.appendChild( 'README.css' );"></img> -->
+
 # playwithme
 
 It's playtime.
+
+Footnote 1 link[^first].
+
+[^first]: Footnote **can have markup**
+
+
+## Customized style class
+
+- <span class='note'>NOTE:</span> `font-weight: bold; color: #f03c15;`
 
 ## Scaled image service
 
